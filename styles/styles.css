@@ -50,6 +50,9 @@ header a:hover {
 }
 
 .primary-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     background-color: #469165;
     color: #ffffff;
     border: none;
@@ -63,4 +66,115 @@ header a:hover {
 
 .primary-btn:hover {
     background-color: #30B868;
+}
+
+.secondary-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondary-btn:hover {
+    background-color: #30B868;
+    border-color: #30B868;
+}
+
+.hero {
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 185px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.label {
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 99px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.label .label-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    position: relative;
+}
+
+.label .dot-1 {
+    width: 16px;
+    height: 16px;
+    background-color: #30B868;
+    opacity: 0.2;
+    border-radius: 99px;
+}
+
+.label .dot-2 {
+    width: 12px;
+    height: 12px;
+    background-color: #30B868;
+    opacity: 0.4;
+    border-radius: 99px;
+    position: absolute;
+}
+
+.label .dot-3 {
+    width: 6px;
+    height: 6px;
+    background-color: #30B868;
+    opacity: 1;
+    border-radius: 99px;
+    position: absolute;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+}
+
+.green {
+    color: #30B868;
+}
+
+.hero .hero-content .hero-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 16px 0 32px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
 }
