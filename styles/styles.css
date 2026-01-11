@@ -92,7 +92,7 @@ header a:hover {
     background-image: url('../images/hero-bg.png');
     background-size: cover;
     background-position: center;
-    padding: 120px 0 185px 0;
+    padding: 120px 30px 185px 30px;
 }
 
 .hero-content {
@@ -177,4 +177,65 @@ header a:hover {
 .hero-buttons {
     display: flex;
     gap: 16px;
+}
+
+.note{
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.note-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.text-16-px{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.note-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.note-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #ffffff;
+    padding: 70px 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+.note-icon-wrapper{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px;
 }
