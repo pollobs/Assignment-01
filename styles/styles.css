@@ -239,3 +239,65 @@ header a:hover {
     align-items: center;
     border-radius: 99px;
 }
+
+.solution{
+    padding: 0px 30px 100px 30px;
+}
+
+.solution-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.label-green{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #469165;
+    transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.solution-image-wrapper{
+    width: 50%;
+    max-width: 600px;
+}
+
+.solution-image-wrapper img{
+    width: 100%;
+    height: auto;
+}
+
+.solution-text-content{
+    width: 50%;
+    max-width: 700px;
+}
+
+.solution-text-content .title{
+    max-width: 515px;
+}
+
+.solution-text-content .title p{
+max-width: 480px;
+}
+
+.solution-text-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.solution-text-content ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
