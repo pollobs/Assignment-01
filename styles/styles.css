@@ -331,3 +331,42 @@ header a:hover {
     gap: 16px;
     margin-top: 24px;
 }
+
+.footer {
+    background-color: #001931;
+    padding: 120px 30px 40px 30px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-social-icons p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-social-icons .social-icons a{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-social-icons .social-icons a:hover{
+    color: #30B868;
+}
+
+.footer-bottom{
+    border-top: 1px solid 	rgb(229 231	235 /0.2);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
